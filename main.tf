@@ -2,8 +2,7 @@ provider "aws" {
   version     = "~> 2.0"
   profile     = "default"
   region      = "us-east-2"
-  access_key  = "AKIASPHVFZHNJYHYPXND"
-  secret_key  = "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"
+
  }
 
  
