@@ -5,7 +5,7 @@ provider "aws" {
 
  }
 
-resource "aws_instance" "demo" {
-  ami = "ami-0e70c2dc2489eb7ff"
+resource "aws_instance" "linux2" {
+  ami = "ami-0e38b48473ea57778"
   instance_type = "t2.micro"
 }
