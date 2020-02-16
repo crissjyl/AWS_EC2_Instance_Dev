@@ -14,8 +14,7 @@ module "vpc" {
   default_vpc_enable_dns_hostnames = true
 }
  
-resource "aws_vpc" "demo" {
-  cidr_block = "3.12.49.157"
+
 
 resource "aws_instance" "demo" {
   ami = "ami-0e70c2dc2489eb7ff"
