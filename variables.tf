@@ -1,28 +1,4 @@
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@crissjyl 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-terraform-aws-modules
-/
-terraform-aws-vpc
-55
-9961.1k
- Code Issues 40 Pull requests 27 Actions Wiki Security Insights
-terraform-aws-vpc/variables.tf
-@antonbabenko antonbabenko Added Customer Gateway resource (#360)
-5bd21bd on Nov 27, 2019
-@antonbabenko@DrFaust92@ck3mp3r@wardviaene@michieldhadamus@bcenker@tharun-allu@tescalada@shortypowers@sc250024@RupertExact@robh007@nloutas@miguelaferreira@lawliet89@kmcquade@tbugfinder@ebarault@eheydrick@bmihaescu@andreaswittig@aeriff@eherot@madsenibis@dharrisio
-1881 lines (1580 sloc)  60.6 KB
-  
 variable "create_vpc" {
   description = "Controls if VPC should be created (it affects almost all resources)"
   type        = bool
@@ -1904,15 +1880,4 @@ variable "elasticache_outbound_acl_rules" {
   ]
 }
 
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
