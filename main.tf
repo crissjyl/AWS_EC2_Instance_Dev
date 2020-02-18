@@ -5,7 +5,3 @@ provider "aws" {
 
  }
 
-resource "aws_instance" "terraform" {
-  ami = "ami-0e70c2dc2489eb7ff"
-  instance_type = "t2.micro"
-}
